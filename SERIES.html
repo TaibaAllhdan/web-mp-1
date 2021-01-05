@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+  <title>MOV.web</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icon.jpg"/>
+  <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!--navigation-->
+  <nav>
+    <!-- logo -->
+    <a href="#" class="logo">
+        <img src="./icon2.jpg"/>
+    </a>
+      <!-- menu -->
+      <ul class="menu">
+         <li><a href="./indx.html">Home</a></li>
+         <li><a href="./MOVEIS.html">Moveis</a></li>
+         <li><a href="./SERIES.html">series</a></li>
+ </ul>
+ <div class="search">
+  <input type="text" placeholder="find your movies">
+
+  <!-- search icon -->
+  <i class="fas fa-search"></i>
+</div>  
+</nav>
+  
+<div > 
+  <div style="display: flex;">
+<div class="list">
+<div class="lists">
+ <h2>home</h2>
+ <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:0px">
+   <h3 class="w3-bar-item">Menu</h3>
+   <a href="./indx.html" class="w3-bar-item w3-button">Home</a>
+   <a href="./MOVEIS.html" class="w3-bar-item w3-button">Moveis</a>
+   <a href="./SERIES.html" class="w3-bar-item w3-button">series</a>
+ </div>
+
+  <ul><br>
+   <li><br></li></br>
+   <li><br></li></br>
+   <li><br></li></br>
+ </ul> 
+ </br>
+</div> 
+<div class="lists">
+   <h2>Trending</h2>
+   <ul>
+     <li><br></li></br>
+     <li><br></li></br>
+     <li><br></li></br>
+   </ul>
+</div>
+<div class="lists">
+   <h2>watch it again</h2>
+   <ul>
+     <li><br></li></br>
+     <li><br></li></br>
+     <li><br></li></br>
+   </ul>
+</div> 
+<div class="lists">
+ <h2>TOP 20</h2>
+ <ul>
+   <li><br></li></br>
+   <li><br></li></br>
+   <li><br></li></br>
+ </ul>
+</div> 
+
+
+</div>
+
+
+
+<section id="main">
+  <h1 class="showcase-heading">Latest series</h1>
+  <ul id="autoWidth" class="cs-hidden">
+    <li class="item-l">
+     <div class="showcase-box">
+      <img src="./مسلسل1.jpg"/>
+    </div>
+      </li>
+
+      
+  <li class="item-m">
+   <div class="showcase-box">
+    <img src="./مسلس2.jpg"/>
+  </div>
+    </li>
+    
+    
+  <li class="item-n">
+   <div class="showcase-box">
+    <img src="./مسلس3.jpg"/>
+  </div>
+    </li>
+
+</ul>
+
+<ul id="autoWidth" class="cs-hidden">
+  <li class="item-l">
+   <div class="showcase-box">
+    <img src="./مسلسل4.jpg"/>
+  </div>
+    </li>
+
+    
+<li class="item-m">
+ <div class="showcase-box">
+  <img src="./مسلسل5.jpg"/>
+</div>
+  </li>
+  
+  
+<li class="item-n">
+ <div class="showcase-box">
+  <img src="./مسلسل6.jpg"/>
+</div>
+  </li>
+
+</ul>
+<ul id="autoWidth" class="cs-hidden">
+  <li class="item-l">
+   <div class="showcase-box">
+    <img src="./مسلسل7.jpg"/>
+  </div>
+    </li>
+
+    
+<li class="item-m">
+ <div class="showcase-box">
+  <img src="./مسلسل8.jpg"/>
+</div>
+  </li>
+  
+  
+<li class="item-n">
+ <div class="showcase-box">
+  <img src="./مسلسل9.jpg"/>
+</div>
+  </li>
+
+</ul>
+
+
+</section>
+
+<script>
+  $(document).ready(function() {
+$(`#autoWidth`).lightSlider({
+   autoWidth:true,
+   loop:true,
+   onSliderLoad: function() {
+       $(`#autoWidth`).removeClass(`cS-hidden`);
+   } 
+});  
+});
+
+</script>
+
+
+</body>
+</html>
